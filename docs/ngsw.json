@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "index": "/ccards/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ccards/0.9e7c456f642ae53f73ca.js",
+        "/ccards/favicon.ico",
+        "/ccards/index.html",
+        "/ccards/main.c989b65ad9b7a6967554.js",
+        "/ccards/polyfills.6badcbb4fe269cf0719e.js",
+        "/ccards/runtime.eaa6b3b2c14e44eab240.js",
+        "/ccards/styles.730797df56d5925c5bf2.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ccards/assets/icons/icon-128x128.png",
+        "/ccards/assets/icons/icon-144x144.png",
+        "/ccards/assets/icons/icon-152x152.png",
+        "/ccards/assets/icons/icon-192x192.png",
+        "/ccards/assets/icons/icon-384x384.png",
+        "/ccards/assets/icons/icon-512x512.png",
+        "/ccards/assets/icons/icon-72x72.png",
+        "/ccards/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ccards/0.9e7c456f642ae53f73ca.js": "50e5a732d6e1d19d555993063cdc2aed3c6ce4f2",
+    "/ccards/assets/icons/icon-128x128.png": "fc12270d2b951e82a36d42f1294f9903daa35aae",
+    "/ccards/favicon.ico": "5cd2c09663b05b6644d2ed18632044e88c5890af",
+    "/ccards/assets/icons/icon-144x144.png": "7bcd5bea1bd491b6f96e1f6a02e6defabcc71033",
+    "/ccards/index.html": "9d08c6aec423658f2143d4ae7e10a3656f2439db",
+    "/ccards/assets/icons/icon-152x152.png": "7bcd5bea1bd491b6f96e1f6a02e6defabcc71033",
+    "/ccards/main.c989b65ad9b7a6967554.js": "d85f8bee1263bad0a1a833a7b76a97a142609cad",
+    "/ccards/assets/icons/icon-192x192.png": "7bcd5bea1bd491b6f96e1f6a02e6defabcc71033",
+    "/ccards/polyfills.6badcbb4fe269cf0719e.js": "4bb9a12f2ca463333d4bf004874b59ec8b90ba5f",
+    "/ccards/assets/icons/icon-384x384.png": "7ff0a99483dc3ec317a686b766fe391e67f1f42a",
+    "/ccards/runtime.eaa6b3b2c14e44eab240.js": "2afbaa860b8a1d286c5456566c26c86281f1cbcf",
+    "/ccards/assets/icons/icon-512x512.png": "7ff0a99483dc3ec317a686b766fe391e67f1f42a",
+    "/ccards/styles.730797df56d5925c5bf2.css": "90092484d6f8686093e27af6d49c5d1bac26966c",
+    "/ccards/assets/icons/icon-72x72.png": "fc12270d2b951e82a36d42f1294f9903daa35aae",
+    "/ccards/assets/icons/icon-96x96.png": "fc12270d2b951e82a36d42f1294f9903daa35aae"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
