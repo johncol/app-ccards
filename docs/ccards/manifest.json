@@ -1,0 +1,31 @@
+{
+  "name": "ccards",
+  "short_name": "ccards",
+  "description": "Credit Cards Purchases Counter",
+  "icons": [
+    {
+      "src": "assets/icons/card_64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/card_128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/card_256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/card_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3f51b5"
+}
