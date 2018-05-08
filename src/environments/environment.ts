@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  resetStorage: false
+  resetStorage: true
 };
 
 /*

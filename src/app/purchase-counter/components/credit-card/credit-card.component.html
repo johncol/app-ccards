@@ -2,11 +2,13 @@
   <div class="flex-container">
     <mat-card-header>
       <mat-card-title>
-        {{ card.franchise }} ****{{ card.cardNumber }}
+        <span class="franchise">{{ card.franchise }}</span>
+        <span class="card-number">****{{ card.cardNumber }}</span>
       </mat-card-title>
     </mat-card-header>
-    <mat-card-content>
-      Purchases {{ card.purchases }}
+    <mat-card-content class="purchases">
+      Purchases
+      <span class="quantity">{{ card.purchases }}</span>
     </mat-card-content>
   </div>
   <mat-card-actions>
