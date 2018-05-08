@@ -1,7 +1,7 @@
 {
   "name": "ccards",
   "short_name": "ccards",
-  "theme_color": "#1976d2",
+  "theme_color": "#C2185B",
   "background_color": "#fafafa",
   "display": "standalone",
   "start_url": "index.html",
