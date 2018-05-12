@@ -1,4 +1,5 @@
 <mat-card>
+
   <div class="flex-container">
     <mat-card-header>
       <mat-card-title>
@@ -6,8 +7,9 @@
         <span class="card-number">****{{ card.cardNumber }}</span>
       </mat-card-title>
     </mat-card-header>
+
     <mat-card-content class="purchases">
-      <section class="purchases">
+      <section>
         Purchases
         <span class="quantity">{{ card.purchases }}</span>
       </section>
@@ -17,10 +19,18 @@
       </section>
     </mat-card-content>
   </div>
-  <mat-card-actions>
-    <div class="button-row">
-      <button mat-mini-fab color="primary" (click)=increment()>+</button>
-      <button mat-mini-fab color="warn" (click)=decrement()>-</button>
-    </div>
-  </mat-card-actions>
+
+  <div class="flex-container">
+    <mat-card-content class="billing">
+      Billing cycle from {{ card.billingCicle }}<sup>th</sup>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <div class="button-row">
+        <button mat-mini-fab color="primary" (click)=increment()>+</button>
+        <button mat-mini-fab color="warn" (click)=decrement()>-</button>
+      </div>
+    </mat-card-actions>
+  </div>
+
 </mat-card>

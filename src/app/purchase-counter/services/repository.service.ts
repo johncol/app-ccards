@@ -8,8 +8,8 @@ const STORAGE_KEY: string = 'ccards';
 @Injectable()
 export class RepositoryService {
   defaultCards: CreditCard[] = [
-    CreditCard.of('Visa Platinum', '8047', 4),
-    CreditCard.of('Mastercard AAdvantage', '8396', 4),
+    CreditCard.of('Visa Platinum', '8047', 4, 7),
+    CreditCard.of('Mastercard AAdvantage', '8396', 4, 7),
     CreditCard.of('Mastercard Prestige', '0692', 7)
   ];
 

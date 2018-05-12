@@ -6,14 +6,16 @@ export class CreditCard {
   cardNumber: string;
   purchases: number;
   requiredPurchases: number;
+  billingCicle: number;
 
-  static of(franchise: string, cardNumber: string, requiredPurchases: number): CreditCard {
+  static of(franchise: string, cardNumber: string, requiredPurchases: number, billingCicle: number = 1): CreditCard {
     return {
       id: Generator.randomId(),
       franchise: franchise,
       cardNumber: cardNumber,
       purchases: 0,
-      requiredPurchases: requiredPurchases
+      requiredPurchases: requiredPurchases,
+      billingCicle: billingCicle
     };
   }
 }
