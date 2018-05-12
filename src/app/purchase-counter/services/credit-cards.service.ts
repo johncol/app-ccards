@@ -16,8 +16,8 @@ export class CreditCardsService {
     return this.rawObservableCopyOf(this.cards);
   }
 
-  create(franchise: string, cardNumber: string): Observable<CreditCard> {
-    const creditCard: CreditCard = CreditCard.of(franchise, cardNumber);
+  create(franchise: string, cardNumber: string, requiredPurchases: number): Observable<CreditCard> {
+    const creditCard: CreditCard = CreditCard.of(franchise, cardNumber, requiredPurchases);
     this.cards.push(creditCard);
     this.repository.save(this.cards);
     return this.rawObservableCopyOf(creditCard);

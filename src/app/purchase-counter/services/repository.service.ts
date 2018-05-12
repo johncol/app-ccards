@@ -8,9 +8,9 @@ const STORAGE_KEY: string = 'ccards';
 @Injectable()
 export class RepositoryService {
   defaultCards: CreditCard[] = [
-    { id: 1, franchise: 'Visa Platinum', cardNumber: '8047', purchases: 4 },
-    { id: 2, franchise: 'Mastercard AAdvantage', cardNumber: '8396', purchases: 1 },
-    { id: 3, franchise: 'Mastercard Prestige', cardNumber: '0692', purchases: 0 },
+    CreditCard.of('Visa Platinum', '8047', 4),
+    CreditCard.of('Mastercard AAdvantage', '8396', 4),
+    CreditCard.of('Mastercard Prestige', '0692', 7)
   ];
 
   constructor(@Inject(LOCAL_STORAGE) private storage: StorageService) {

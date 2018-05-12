@@ -7,8 +7,14 @@
       </mat-card-title>
     </mat-card-header>
     <mat-card-content class="purchases">
-      Purchases
-      <span class="quantity">{{ card.purchases }}</span>
+      <section class="purchases">
+        Purchases
+        <span class="quantity">{{ card.purchases }}</span>
+      </section>
+      <section class="required">
+        Required
+        <span class="quantity">{{ card.requiredPurchases }}</span>
+      </section>
     </mat-card-content>
   </div>
   <mat-card-actions>

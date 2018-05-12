@@ -46,9 +46,15 @@
   font-size: 14px;
 }
 
-.purchases {
+.mat-card-content {
   font-size: 15px;
   font-variant: all-small-caps;
+  text-align: right;
+
+  .required {
+    font-size: 14px; 
+  }
+
   .quantity {
     font-weight: bold;
   }
