@@ -32,6 +32,15 @@
         "/ccards/assets/icons/icon-96x96.png"
       ],
       "patterns": []
+    },
+    {
+      "name": "google-fonts",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
     }
   ],
   "dataGroups": [],
